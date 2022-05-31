@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" href="lab4b.css"> 
+	<script src="quiz.js"></script>
+</head>
+
+<body>
+	<div id="container">
+		<nav>
+			<h1> <u>Links</u> </h1>
+			<a href="admin.php">Admin<br>Data</a>
+			</nav>
+			<div id="leftside">
+			</div>
+	<main>
+	<header>MF DOOM Quiz</header>
+	<br><br>
+	<form form method="POST" action="quiz_log.php">
+		<img src="https://f4.bcbits.com/img/a1024330960_16.jpg" alt="DOOM" height="300" style="border: 5px solid #3b81b3;">
+		<p>
+			Answer the questions below and click the Submit button at the<br> end to see
+			your score.
+		</p>
+		<br><br>
+		<ol>
+		
+		<li><label for="q1" id="q1">Which of these is <b>NOT</b> an MF DOOM album?</label><br><br></li>
+		<div>
+			<input type="radio" name="q1" value="food" id="food">
+			<label for="food">Mm.. Food</label>
+		</div>
+		<div>
+		<input type="radio" name="q1" value="operation doomsday" id="operation doomsday">
+		<label for="operation">Operation: Doomsday</label>
+		</div>
+		<div>
+		<input type="radio" name="q1" value="Vaudeville Villian" id="Vaudeville Villian">
+		<label for="vaud">Vaudeville Villian</label>
+		</div>
+		<div>
+		<input type="radio" name="q1" value="donuts" id="donuts">
+		<label for="donuts">Donuts</label>
+		</div>
+		<br><br><br>
+		
+		
+		<li><label for="q2" id ="q2">Which of these songs appeared in the album <i>Born Like This</i> ?</label><br><br></li>
+		<div>
+			<input type="radio" name="q2" value="air" id="air">
+			<label for="air">Air</label>
+		</div>
+		<div>
+		<input type="radio" name="q2" value="thats that" id="thats that">
+		<label for="that">THAT'S THAT</label>
+		</div>
+		<div>
+		<input type="radio" name="q2" value="curls" id="curls">
+		<label for="curls">Curls</label>
+		</div>
+		<div>
+		<input type="radio" name="q2" value="the finest" id="the finest">
+		<label for="finest">The Finest</label>
+		</div>
+		<br><br><br>
+		
+		
+		<li><label for="q3" id="q3">Which of these is <b>NOT</b> an MF DOOM alter ego?</label><br><br></li>
+		<div>
+			<input type="radio" name="q3" value="Quasimoto" id="Quasimoto">
+			<label for="quas">Quasimoto</label>
+		</div>
+		<div>
+		<input type="radio" name="q3" value="King Geedorah" id="King Geedorah">
+		<label for="king">King Geedorah</label>
+		</div>
+		<div>
+		<input type="radio" name="q3" value="Viktor Vaughn" id="Viktor Vaughn">
+		<label for="vik">Viktor Vaughn</label>
+		</div>
+		<div>
+		<input type="radio" name="q3" value="Metal Fingers" id="Metal Fingers">
+		<label for="mf">Metal Fingers</label>
+		</div>
+		<br><br><br>
+		
+		
+		<li><label for="q4" id="q4">MF DOOM has collaborated with the band <i>Gorillaz</i> in the past. </label><br><br></li>
+		<div>
+			<input type="radio" name="q4" value="true" id="true">
+			<label for="true">True</label>
+		</div>
+		<div>
+		<input type="radio" name="q4" value="false" id="false">
+		<label for="false">False</label>
+		</div>
+		<br><br><br>
+		
+		
+		<li><label for="q5" id= "q5">MF DOOM did most of the production on the album<i>Madvillainy</i></label><br><br></li>
+		<div>
+			<input type="radio" name="q5" value="true" id="true2">
+			<label for="true2">True</label>
+		</div>
+		<div>
+		<input type="radio" name="q5" value="false" id="false2">
+		<label for="false2">False</label>
+		</div>
+		<br>
+		
+		
+		<li style="padding: 30px 0px 0px ;"><label for="q6" id="q6"><b>Finish the lyric:</b><br>
+			<i>He wears a mask just to cover the raw flesh<br>
+			A rather ugly brother with flows that's _______</i></label><br><br>
+			</li>
+		<input type="text" name="question6" id="question6" minlength="1" maxlength="25" required>
+		<br><br><br>
+		</ol>
+		<br>
+		
+		<input type="hidden" name="quizScore" id="quizScore" value="0">
+		
+		
+		<input id="submitButton" type="button" value="Submit" >
+		<input type="reset" value="Reset" id="reset">
+		
+		<div id="hidden">
+			<h1 id="header" style="margin: 150px 0px 0px 0px;"></h1>
+			<br>
+			<img src="https://i.kym-cdn.com/photos/images/original/001/857/750/4ab.png" alt="result" height="70" id="resultImg">
+			<h2 id="result"></h2>
+			
+			<h2 style="padding: 100px 0 0">Do want to save your results?</h2>
+			<h3>Enter your information below.</h3>
+		
+			<h4 style="text-align: left; padding: 30px 0 0">Personal Info:</h4>
+			<label for="fname"> First name</label>
+			<input type="text" id="fname" name="fname" placeholder= "Daniel" minlength="1" maxlength="30" required> 
+			<br>
+			<label for="lname"> Last name</label>
+			<input type="text" id="lname" name="lname" placeholder= "Dumile" minlength="1" maxlength="50" required> 
+			<h4 style="text-align: left; padding: 30px 0 0">Oracle username/password: </h4>
+		
+			<label for="username"> Username: </label>
+			<input type="text" name="username" id="username" required style="width:300px;"/> 
+			<br>
+			<label for="password"> Password: </label>
+			<input type="password" name="password" required id="password" />
+			<br>
+			<br><br>
+			<input id="saveButton" type="submit" value="Save" style="background-color: #099e0e;">
+		</div>
+	</form>
+	<br>
+	
+	
+	</main>
+	
+</body>
+
+</html>
