@@ -1,0 +1,24 @@
+
+
+Fri Dec 10                                                             page    1
+                            List of all Employees: 
+                                 with Job Tiles 
+
+Name                            Job Title                                       
+------------------------------- ---------------                                 
+George Steinbrenner             owner                                           
+Jackie Chiles                                                                   
+                                                                                
+Cosmo Kramer                    sales rep                                       
+Elaine Benes                                                                    
+Estelle Costanza                                                                
+Frank Costanza                                                                  
+George Costanza                                                                 
+Helen Seinfeld                                                                  
+Jerry Seinfeld                                                                  
+Morty Seinfeld                                                                  
+Newman Newman                                                                   
+Susan Ross                                                                      
+
+12 rows selected.
+

@@ -1,0 +1,111 @@
+
+325 Queries
+
+
+Query #1
+Who are all the employees at the Business and what are their positions?
+
+
+FNAME           LNAME           POSITION                                        
+--------------- --------------- ---------------                                 
+George          Steinbrenner    owner                                           
+Jackie          Chiles          owner                                           
+Cosmo           Kramer          sales rep                                       
+Elaine          Benes           sales rep                                       
+Estelle         Costanza        sales rep                                       
+Frank           Costanza        sales rep                                       
+George          Costanza        sales rep                                       
+Helen           Seinfeld        sales rep                                       
+Jerry           Seinfeld        sales rep                                       
+Morty           Seinfeld        sales rep                                       
+Newman          Newman          sales rep                                       
+
+FNAME           LNAME           POSITION                                        
+--------------- --------------- ---------------                                 
+Susan           Ross            sales rep                                       
+
+12 rows selected.
+
+
+
+Query #2
+How many popsicles have been sold?
+
+Popsicles Sold                                                                  
+--------------                                                                  
+            14                                                                  
+
+
+
+Query #3
+How many of each flavor has been sold?
+
+STOC       Sold                                                                 
+---- ----------                                                                 
+3333          1                                                                 
+7777          2                                                                 
+4444          1                                                                 
+6666          3                                                                 
+9999          1                                                                 
+1111          4                                                                 
+2222          1                                                                 
+5555          1                                                                 
+
+8 rows selected.
+
+
+
+Query #4
+Who is the newest hire with the position of sales rep?
+
+EMPL_ DATE_HIRE FNAME           LNAME           EMAIL                           
+----- --------- --------------- --------------- -------------------------       
+00000 10-OCT-19 Newman          Newman          newman@gmail.com                
+
+
+
+Query #5
+Which vendors sell water type popsicles?
+
+VEND_ NAME                                                                      
+----- -----------------------------------                                       
+11111 fruit yup                                                                 
+22222 Jolly goods                                                               
+33333 water pops                                                                
+
+
+
+Query #6
+Which reward customers buy more popsicles than average?
+
+ID     LNAME                FNAME                POP_BOUGHT                     
+------ -------------------- -------------------- ----------                     
+333333 Burgah               Boy                          20                     
+666666 Pac                  Man                          15                     
+777777 Gabe                 Newell                       30                     
+123456 Giant                Rat                          40                     
+
+
+
+Query #7
+Which milk based flavors have an on hand count of more than 150?
+
+ID   FLAVOR                                     OHC                             
+---- ----------------------------------- ----------                             
+4444 coconut                                    200                             
+5555 Cookies and cream                          300                             
+2000 cream                                      170                             
+
+
+
+Query #8
+What are the phone numbers of the vendors that sell chile popsicles?
+
+ID    NAME                                PHONE                                 
+----- ----------------------------------- ----------                            
+00000 Air pops                            1234561234                            
+00000 Air pops                            1472583690                            
+00000 Air pops                            7539512365                            
+88888 Aww mustard                         8888888888                            
+77777 spicy nugget                        7777777777                            
+

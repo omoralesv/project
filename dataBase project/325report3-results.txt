@@ -1,0 +1,27 @@
+
+Fri Dec 10                                                             page    1
+                                  Top Patrons
+
+Name                 Popsicles Bought                                           
+-------------------- ----------------                                           
+Giant Rat                          40                                           
+Gabe Newell                        30                                           
+Burgah Boy                         20                                           
+Pac Man                            15                                           
+Danny Devito                        7                                           
+Bat Boy                             6                                           
+The Egg                             5                                           
+Glue Man                            5                                           
+Frank Pizza                         5                                           
+Martin Van Buren                    1                                           
+
+10 rows selected.
+
+
+Fri Dec 10                                                             page    1
+                     Average Popsicles Bought per Customer
+
+  Average                                                                       
+---------                                                                       
+    13.40                                                                       
+
