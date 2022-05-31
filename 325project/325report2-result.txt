@@ -1,0 +1,68 @@
+
+Fri Dec 10                                                                                                               page    1
+                                                       Popsicles that need
+                                                         to be resupplied
+
+Stock                              Company                                                                                        
+ ID   Flavor                   OHC  Name                   Phone                                                                  
+----- ----------------------- ---- ----------------------- ----------                                                             
+1111  strawberry               100 fruit yup               1234567890                                                             
+1111                           100 Jolly goods             2222222222                                                             
+1111                           100 water pops              3333333333                                                             
+1111                           100 fruit yup               1111111111                                                             
+      ***********************      -----------------------                                                                        
+      Number of Vendors                                  4                                                                        
+                                                                                                                                  
+                                                                                                                                  
+1337  Guava                    100 fruit yup               1111111111                                                             
+1337                           100 water pops              3333333333                                                             
+1337                           100 Jolly goods             2222222222                                                             
+1337                           100 fruit yup               1234567890                                                             
+      ***********************      -----------------------                                                                        
+      Number of Vendors                                  4                                                                        
+                                                                                                                                  
+                                                                                                                                  
+2222  strawberry               150 cows? sure              4444444444                                                             
+2222                           150 cream and stuff         5555555555                                                             
+2222                           150 Cafe pop                9999999999                                                             
+2222                           150 dare-E                  6666666666                                                             
+      ***********************      -----------------------                                                                        
+      Number of Vendors                                  4                                                                        
+                                                                                                                                  
+                                                                                                                                  
+6666  pepino con chile         100 Air pops                1472583690                                                             
+6666                           100 Air pops                7539512365                                                             
+6666                           100 spicy nugget            7777777777                                                             
+6666                           100 Aww mustard             8888888888                                                             
+6666                           100 Air pops                1234561234                                                             
+      ***********************      -----------------------                                                                        
+      Number of Vendors                                  5                                                                        
+                                                                                                                                  
+
+Fri Dec 10                                                                                                               page    2
+                                                       Popsicles that need
+                                                         to be resupplied
+
+Stock                              Company                                                                                        
+ ID   Flavor                   OHC  Name                   Phone                                                                  
+----- ----------------------- ---- ----------------------- ----------                                                             
+                                                                                                                                  
+9876  chocolate                150 cows? sure              4444444444                                                             
+9876                           150 Cafe pop                9999999999                                                             
+9876                           150 dare-E                  6666666666                                                             
+9876                           150 cream and stuff         5555555555                                                             
+      ***********************      -----------------------                                                                        
+      Number of Vendors                                  4                                                                        
+                                                                                                                                  
+                                                                                                                                  
+9999  rum raisin               100 cream and stuff         5555555555                                                             
+9999                           100 dare-E                  6666666666                                                             
+9999                           100 Cafe pop                9999999999                                                             
+9999                           100 cows? sure              4444444444                                                             
+      ***********************      -----------------------                                                                        
+      Number of Vendors                                  4                                                                        
+                                                                                                                                  
+                                                                                                                                  
+
+25 rows selected.
+

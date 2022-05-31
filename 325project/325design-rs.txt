@@ -1,0 +1,39 @@
+Omar Morales
+Cs 325 – Fall 2021
+Last Modified 12/7/21
+
+Design: Relation Structures
+
+ Empl(EMPL_ID, position)
+      Primary key (empl_id)
+
+Sales_rep(EMPL_ID, DATE_HIRED, fname, lname, email)
+      Primary key (empl_id,date_hired)
+      Foreign key (empl_id) references empl
+
+Owner(EMPL_ID, STORE_ID, fname,lname, email)
+      Primary key(empl_id, store_id)
+      Foreign key (empl_id) references empl
+
+Phone_nums(EMPL_ID, PHONE,phone_type)
+      Primary key (empl_id, phone)
+      Foreign key (empl_id) references empl
+
+R_customer(CUST_ID,lname,fname,email, pop_bought)
+	Primary key(cust_id)
+
+Popsicles(STOCK_ID, flavor, pop_type, ohc)
+      Primary key (stock_id)
+
+Sales(EMPL_ID, STOCK_ID ,date_sold)
+      Primary key (empl_id, stock_id)
+      Foreign key (empl_id) references empl 
+      Foreign key (stock_id) references  popsicles 
+
+Vendor(VEND_ID, comp_name, pop_type)
+      Primary key (vend_id)
+
+Vend_phones(VEND_ID, VENDOR_PHONE) 
+      Primary key (vend_id, vendor_phone)
+      Foreign key (vend_id) references vendor 
+

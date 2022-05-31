@@ -1,0 +1,174 @@
+
+========
+Empl
+========
+
+ID    POSITION                                                                  
+----- ---------------                                                           
+11111 sales rep                                                                 
+22222 sales rep                                                                 
+33333 sales rep                                                                 
+44444 sales rep                                                                 
+55555 sales rep                                                                 
+66666 sales rep                                                                 
+77777 sales rep                                                                 
+88888 sales rep                                                                 
+99999 sales rep                                                                 
+00000 sales rep                                                                 
+12345 owner                                                                     
+
+ID    POSITION                                                                  
+----- ---------------                                                           
+67890 owner                                                                     
+
+12 rows selected.
+
+========
+Sales_rep
+========
+
+EMPL_ DATE_HIRE FNAME           LNAME           EMAIL                           
+----- --------- --------------- --------------- -------------------------       
+11111 01-JAN-10 Jerry           Seinfeld        jSeinfeld@gmail.com             
+22222 02-FEB-11 George          Costanza        gCostanza@gmail.com             
+33333 03-MAR-12 Elaine          Benes           eBenes@gmail.com                
+44444 04-APR-13 Cosmo           Kramer          cKramer@gmail.com               
+55555 05-MAY-14 Frank           Costanza        fCostanza@gmail.com             
+66666 06-JUN-15 Estelle         Costanza        eCostanza@gmail.com             
+77777 07-JUL-16 Morty           Seinfeld        mSeinfeld@gmail.com             
+88888 08-AUG-17 Helen           Seinfeld        hSeinfeld@gmail.com             
+99999 09-SEP-18 Susan           Ross            sRoss@gmail.com                 
+00000 10-OCT-19 Newman          Newman          newman@gmail.com                
+
+10 rows selected.
+
+========
+owner
+========
+
+EMPL_ STO FNAME           LNAME           EMAIL                                 
+----- --- --------------- --------------- -------------------------             
+12345 111 George          Steinbrenner    gSteinbrenner@gmail.com               
+67890 222 Jackie          Chiles          jChiles@gmail.com                     
+
+========
+phone_nums
+========
+
+EMPL_ PHONE   PHONE_TYPE                                                        
+----- ------- ---------------                                                   
+11111 1234567 cell                                                              
+11111 1234589 home                                                              
+22222 1111111 cell                                                              
+22222 1111222 cell                                                              
+67890 2222222 cell                                                              
+67890 3333333 work                                                              
+67890 4444444 home                                                              
+12345 5555555 cell                                                              
+12345 6666666 work                                                              
+55555 5667778 cell                                                              
+66666 1223334 work                                                              
+
+11 rows selected.
+
+========
+r_customer
+========
+
+ID     LNAME                FNAME                EMAIL                          
+------ -------------------- -------------------- ------------------------------ 
+111111 The                  Egg                  tEgg@gmail.com                 
+222222 Bat                  Boy                  bBoy@gmail.com                 
+333333 Burgah               Boy                  burgah@gmail.com               
+444444 Danny                Devito               dDavito@gmail.com              
+55555  Glue                 Man                  gMan@gmail.com                 
+666666 Pac                  Man                  pacMan@gmail.com               
+777777 Gabe                 Newell               gaben@gmail.com                
+888888 Martin Van           Buren                mvBuren@gmail.com              
+999999 Frank                Pizza                fPizza@gmail.com               
+123456 Giant                Rat                  gRat@gmail.com                 
+
+10 rows selected.
+
+
+CUST_I POP_BOUGHT                                                               
+------ ----------                                                               
+111111          5                                                               
+222222          6                                                               
+333333         20                                                               
+444444          7                                                               
+55555           5                                                               
+666666         15                                                               
+777777         30                                                               
+888888          1                                                               
+999999          5                                                               
+123456         40                                                               
+
+10 rows selected.
+
+
+STOC POP_TYPE             FLAVOR                                     OHC        
+---- -------------------- ----------------------------------- ----------        
+1111 water                strawberry                                 100        
+2222 milk                 strawberry                                 150        
+3333 water                lime                                       300        
+4444 milk                 coconut                                    200        
+5555 milk                 Cookies and cream                          300        
+6666 chile                pepino con chile                           100        
+7777 chile                mangonada                                  200        
+8888 water                Jamaica                                    400        
+9999 milk                 rum raisin                                 100        
+1337 water                Guava                                      100        
+
+10 rows selected.
+
+
+EMPL_ STOC DATE_SOLD                                                            
+----- ---- ---------                                                            
+11111 1111 09-DEC-21                                                            
+11111 2222 09-DEC-21                                                            
+11111 3333 09-DEC-21                                                            
+11111 4444 09-DEC-21                                                            
+22222 1111 09-DEC-21                                                            
+22222 5555 09-DEC-21                                                            
+22222 6666 09-DEC-21                                                            
+33333 6666 09-DEC-21                                                            
+33333 7777 09-DEC-21                                                            
+33333 1111 09-DEC-21                                                            
+33333 9999 09-DEC-21                                                            
+
+11 rows selected.
+
+
+VEND_ COMP_NAME                           POP_TYPE                              
+----- ----------------------------------- --------------------                  
+11111 fruit yup                           water                                 
+22222 Jolly good                          water                                 
+33333 water pops                          water                                 
+44444 cows? sure                          milk                                  
+55555 cream and stuff                     milk                                  
+66666 dare-E                              milk                                  
+77777 spicy nugget                        chile                                 
+88888 Aww mustard                         chile                                 
+99999 Cafe pop                            milk                                  
+00000 Air pops                            chile                                 
+
+10 rows selected.
+
+
+VEND_ VENDOR_PHO                                                                
+----- ----------                                                                
+00000 1234561234                                                                
+11111 1111111111                                                                
+11111 1234567890                                                                
+22222 2222222222                                                                
+33333 3333333333                                                                
+44444 4444444444                                                                
+55555 5555555555                                                                
+66666 6666666666                                                                
+77777 7777777777                                                                
+88888 8888888888                                                                
+99999 9999999999                                                                
+
+11 rows selected.
+
